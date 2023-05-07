@@ -1,0 +1,295 @@
+/* navbar */
+
+#nav_div {
+  font-family: "Exo";
+}
+
+.logo {
+  max-width: 50px;
+  max-block-size: 50px;
+  display: inline;
+  margin-left: 0px;
+}
+
+.nav-item {
+  background-color: #77b6ea;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav-item:hover {
+  background-color: #af3b6e;
+  transition: all 0.3s;
+}
+
+.navbar-toggler {
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: #000000;
+}
+
+.navbar-brand {
+  margin-left: 20px;
+}
+
+/* intro */
+
+#font {
+  font-family: "Libre Franklin";
+}
+
+#font-header {
+  font-family: "Exo";
+  font-size: 40px;
+}
+
+#intro {
+  background-color: #326084;
+}
+
+h4 {
+  margin-top: 7%;
+}
+
+#intro_text {
+  color: white;
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+
+#intro_picture {
+  max-width: 500px;
+  max-height: 500px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 60px;
+  margin-left: auto;
+}
+
+/* paketi */
+
+.box {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  background-color: #c7d3dd;
+  border-radius: 2em;
+}
+
+.card {
+  border-radius: 2em 2em 2em 2em;
+  height: 22rem;
+  border-color: #c7d3dd;
+  background-color: transparent;
+  margin-top: 2%;
+  margin-bottom: 11%;
+}
+
+.card-title {
+  border-radius: 2em 2em 0 0;
+  border-radius: 2em 2em 0 0;
+}
+
+.card-body {
+  border-radius: 0 0 2em 2em;
+  border-radius: 0 0 2em 2em;
+}
+
+.card-header {
+  height: 10rem;
+}
+
+#card-2-header {
+  background-color: #1b264f;
+  font-size: 25px;
+}
+
+#card-2-header > .card-title {
+  color: white;
+}
+
+#card-2-body {
+  background-color: #af3b6e;
+  color: white;
+  font-size: 25px;
+}
+
+#card-1-header {
+  background-color: #e8eef2;
+  font-size: 25px;
+}
+
+#card-1-body {
+  background-color: #77b6ea;
+  font-size: 25px;
+}
+
+#card-3-header {
+  background-color: #e8eef2;
+  font-size: 25px;
+}
+
+#card-3-body {
+  background-color: #77b6ea;
+  font-size: 25px;
+}
+
+.btn-2 {
+  background-color: #77b6ea;
+  color: black;
+  border-radius: 1em;
+}
+
+.btn-2:hover {
+  background-color: #af3b6e;
+  color: white;
+}
+
+.btn-1 {
+  background-color: #1b264f;
+  color: white;
+  border-radius: 1em;
+}
+
+.btn-1:hover {
+  background-color: #77b6ea;
+}
+
+.btn-3 {
+  background-color: #1b264f;
+  color: white;
+  border-radius: 1em;
+}
+
+.btn-3:hover {
+  background-color: #77b6ea;
+}
+
+/* carousel css */
+
+.mobile-carousel {
+  padding: 30px;
+}
+
+.carousel-indicators {
+  bottom: -20px;
+}
+
+.carousel-item {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* stabilnost */
+
+#stabilnost {
+  background-color: #326084;
+}
+
+#stabilnost-text {
+  color: white;
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+
+#stabilnost-picture {
+  margin-top: 5%;
+  margin-bottom: 3%;
+  border-radius: 60px;
+  max-width: 500px;
+  max-height: 500px;
+  margin-left: auto;
+}
+
+/* footer */
+
+.logo-footer {
+  max-width: 40px;
+  max-height: 40px;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.form-control {
+  background: #212529;
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: #212529;
+}
+
+footer {
+  background: #212529;
+  overflow: hidden;
+}
+
+@media (max-width: 576px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  .nav-item {
+    background-color: #ffffff;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .nav-link {
+    color: #000000;
+  }
+
+  .card {
+    border-radius: 2em 2em 2em 2em;
+    height: 33rem;
+    border-color: #c7d3dd;
+    background-color: transparent;
+    margin-top: 2%;
+    margin-bottom: 11%;
+  }
+
+  #stabilnost-text {
+    color: white;
+    margin-top: 7%;
+    margin-bottom: 0;
+  }
+
+  #stabilnost-picture {
+    margin-top: 0;
+    margin-bottom: 3%;
+    border-radius: 60px;
+  }
+
+  footer {
+    text-align: center;
+  }
+  #nasa-ponuda-mobile {
+    margin-top: 10%;
+  }
+
+  .carousel-indicators {
+    bottom: 30px;
+  }
+
+  .backup {
+    margin-bottom: 5%;
+  }
+}
